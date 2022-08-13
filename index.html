@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>signUpForm</title>
+  </head>
+  <body>
+    <main>
+      <div class="texte">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experience developers solve problemes in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable
+        </p>
+      </div>
+      <div class="signup">
+        <div class="essai">
+          <p><strong>Try it free 7 days </strong>then $20/mo. thereafter</p>
+        </div>
+        <form action="" class="forme" id="maforme">
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            placeholder="First Name"
+            minlength="3"
+            maxlength="18"
+          />
+          <span class="error" id="error"></span>
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            placeholder="Last Name"
+            minlength="3"
+            maxlength="18"
+          />
+          <span class="error" id="error1"></span>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+          />
+          <span class="error" id="error2"></span>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            minlength="6"
+          />
+          <span class="error" id="error3"></span>
+          <input type="submit" value="Claim your free trial" />
+          <span class="notice"
+            >By clicking the button, you are agreeing to our
+            <span>Terms and Services</span></span
+          >
+        </form>
+      </div>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
